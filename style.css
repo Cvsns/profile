@@ -26,24 +26,25 @@ a:hover {
   text-align: center;
   border-radius: 50%;
 }
-.follow {
-  text-align: center;
-}
 .img-circle {
+  margin: 0 auto;
+  height: 340px;
+  width: 340px;
   border-radius: 50%;
   box-shadow: 10px 5px 5px black;
+  border: 3px solid lightgray;
 }
 .container {
+  text-align: center;
   width: 500px;
   margin: 0 auto;
 }
-.follow li {
-  list-style: none;
-}
+
 .follow ul {
   padding: 0;
 }
 .follow li {
+  list-style: none;
   display: inline;
   margin: 20px;
 }
@@ -53,12 +54,11 @@ a:hover {
   padding: 15px;
 }
 .follow {
-  border: 3px solid lightgray
+  border: 2px solid lightgray;
+  margin: 5px;
+  padding: 15px;
+  text-align: center;
 }
-.img-circle {
-  border: 3px solid lightgray
-}
-
 
 /* ////////////////////// RESPONSIVE ///////////////////////// */
 
@@ -68,7 +68,24 @@ a:hover {
     width: 700px;
     font-size: 15px;
   }
+  body {
+    background-color:black;
+  }
+  .intro {
+    border: 1px solid;
+  }
+  .follow {
+    border: 1px solid blue
+  }
+  .intro h1, h3 {
+    color: aliceblue;
+  }
+  .img-circle {
+    height: 140px;
+    width: 140px;
+  }
 }
+
 
 @media (max-width: 720px) {
   /* Pour un écran < 720px, cette classe CSS s'applique */
